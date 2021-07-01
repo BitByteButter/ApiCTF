@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>As we can see this ctf is about API and the bruteforcing is not allowed</h1>
+    <img src="1.PNG" width="70%" height="50%">
+    <h1>We can find endpoint.js which has all the api enpoints </h1>
+    <img src="3.PNG" width="70%" height="50%">
+    <h1>We can see that the it has 3 api</h1>
+    <ol>
+        <li> ./api/v1/resources/books?id=n endpoint shows all the data according to the Id</li>
+        <li>/api/v1/resources/books/all </li>
+        <li>/api/v1/resources/securityblabla handles POST request i knew after hint</li>
+
+    </ol>
+    <img src="2.PNG" width="70%" height="50%">
+    <h1>./api/v1/resources/books?id=3 shows hidden file </h1>
+    <img src="hidden.PNG" width="70%" height="50%">
+    <h1>Lets send POST request to /api/v1/resources/securityblabla with id=3 </h1>
+    <img src="5.PNG" width="70%" height="50%">
+    
+</body>
+</html>
